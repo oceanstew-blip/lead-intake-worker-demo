@@ -1,0 +1,13 @@
+{
+  "name": "lead-intake-worker-demo",
+  "main": "src/index.js",
+  "compatibility_date": "2026-01-15",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "lead-intake-demo",
+      // Placeholder. Only used if you deploy; local runs (npm run dev) do not need a real id.
+      "database_id": "00000000-0000-0000-0000-000000000000"
+    }
+  ]
+}

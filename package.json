@@ -1,0 +1,15 @@
+{
+  "name": "lead-intake-worker-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portfolio demo: a small Cloudflare Worker + D1 lead intake endpoint with validation. Fictional data only.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "db:init": "wrangler d1 execute DB --local --file=schema.sql",
+    "check": "node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}
